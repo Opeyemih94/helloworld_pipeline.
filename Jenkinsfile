@@ -5,7 +5,7 @@ pipeline {
     }
     environment {
         registry = '575375837974.dkr.ecr.us-east-1.amazonaws.com/devops-terraform'
-        registryCredential = 'jenkins-ecr'
+        registryCredential = 'Jenkins-ecr'
         dockerimage = ''
     }
     stages {
